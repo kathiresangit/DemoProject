@@ -16,7 +16,7 @@ namespace DemoProject.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Candidate1", "Candidate2","Feature1" };
+            return new string[] { "Candidate1", "Candidate2","Feature1","Featurebranchfix1" };
         }
 
         // GET api/<CandidateController>/5
